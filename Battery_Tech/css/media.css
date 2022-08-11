@@ -1,0 +1,78 @@
+@media screen and (max-width: 768px) {
+.logo{float:none; width:115px; margin:0 auto 10px auto; padding:10px 0 0 0}
+.header_right{float:none; width:100%; margin:auto}
+.callus{float:none; text-align:center; padding:15px 0}
+.search_bg{float:none; margin:auto; width:280px}
+.slick-prev { left:5px !important;}
+.slick-next { right:0px !important}
+.services_img{float:none; width:auto}
+.services_info{position:relative; text-align:center; width:97%; margin:auto}
+.services_info h2{font-size:25px; position:relative}
+.services_info p{font-size:15px; position:relative; width:96%; left:0; right:0; padding:0 2% 10px 2%}
+.services_info img{display:none}
+.services_img{text-align:center}
+.services_img img{border-radius:0; padding:10px 0 0 0 }
+.welcome p{width:95%}
+.navi ul li a{background:none}
+}
+@media only screen and (min-width:700px) and (max-width:1024px)
+{
+.slick-prev { left:5px !important;}
+.slick-next { right:0px !important}
+.navi ul li{font-size:1.5vw}
+.navi ul li a{padding:18px 20px}
+}
+
+@media only screen and (min-width:500px) and (max-width:768px)
+{
+.navi ul li{font-size:1.5vw}
+.navi ul li a{ padding:19px 9px}
+.slick-slide img
+{
+	width:150px; height:150px;
+}
+.shadow{width:97px !important; height:14px !important}
+}
+
+@media only screen and (min-width:460px) and (max-width:500px)
+{
+.navi ul li{font-size:2.5vw}
+.navi ul li a{ padding:20px 6px}
+}
+
+@media only screen and (min-width:460px) and (max-width:768px)
+{
+.bannerbox
+{
+	width:61%; height:56%; top:23%
+}
+.bannerbox h2
+{
+	font-size:18px;
+}
+.bannerbox p{font-size:15px; line-height:22px}
+.welcome h1{font-size:18px; width:85%}
+}
+
+@media only screen and (min-width:300px) and (max-width:460px)
+{
+.bannerbox
+{
+	width:87%; height:81%; top:12%
+}
+.bannerbox h2
+{
+	font-size:12px;
+}
+.bannerbox p{font-size:11px; line-height:22px}
+.welcome h1{font-size:18px; width:85%}
+.navi ul li{font-size:2.5vw}
+.navi ul li a{ padding:19px 8px}
+}
+
+@media only screen and (min-width:260px) and (max-width:360px)
+{
+.callus{font-size:18px !important}
+.navi ul li{font-size:2.5vw}
+.navi ul li a{ padding:21px 8px}
+}

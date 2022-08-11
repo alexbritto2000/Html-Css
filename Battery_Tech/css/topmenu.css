@@ -1,0 +1,106 @@
+
+/* navigation bar */
+#topnav {
+  display: block;
+  width: 100%;
+  position: relative; z-index:9
+}
+
+#topnav h1 a {
+  text-decoration: none;
+  padding: 3px 7px;
+  color: #649554;
+  background: #c8e3bf;
+  text-shadow: 1px 1px 0 rgba(255,255,255,0.65);
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-transition: all 0.4s linear;
+  -moz-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+}
+#topnav h1 a:hover {
+  background: #d6eece;
+  color: #7ca76d;
+}
+
+#topnav #navbtn {
+  display: none;
+ margin:auto;
+  top: 0;
+  width:18px;
+  height: 18px;
+  background: url('../images/menu.png') center no-repeat;
+  text-indent: -99999px;
+  overflow: hidden;
+}
+
+#topnav nav {
+  /*position: absolute;
+  top: 0; 
+  right: -10px;*/
+}
+
+#topnav nav ul {
+  list-style: none; 
+}
+#topnav nav ul li {
+  /*display: block;
+  float: left;
+  font-size: 1.4em;
+  margin-right: 4px;*/
+}
+
+#topnav nav ul li a {
+  /*display: block;
+  text-decoration: none;
+  line-height: 70px;
+  color: #8ea188;
+  font-weight: bold;
+  padding: 0 10px;
+  border-bottom: 2px solid #fff;*/
+
+}
+#topnav nav ul li a:hover {
+ 
+}
+
+
+
+
+
+/* responsive styles */
+@media screen and (max-width: 765px) {
+  #topnav { height: auto; }
+  #topnav nav { 
+    display: none; 
+    position:absolute;
+    width: 100%;
+    top: auto;
+    right: auto; padding-bottom:50%
+  }
+  #topnav nav ul{border-radius:0 0 10px 10px;background: #698d2d; z-index:99999;
+  list-style: none; position:absolute; width:75%; left:12%
+}
+  #topnav nav ul li { float: none; margin: 0 !important; }
+  #topnav nav ul li a {
+    display: block;
+    width: 100%;
+    line-height: 1.4em;
+    border: 0;
+    padding: 6px 0px;
+     text-align:center; color:#fff !important
+  }
+  #topnav nav ul li a:hover {
+    background: #0eb4e6;
+  }
+  #topnav nav ul li a.sel {
+    color: #6f8767;
+    background: #cbdcc5;
+  }
+  
+  #topnav #navbtn {
+    display: block;
+  }
+  .navi {background:none}
+}
