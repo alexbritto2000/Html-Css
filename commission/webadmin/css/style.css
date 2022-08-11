@@ -1,0 +1,30 @@
+.star{
+	color: #FF0000;
+}
+.add_user_submit {
+    color: #7ec242;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #fff;
+    border: solid 2px #7ec242;
+}
+.add_user_submit:hover {
+    background-color: #7ec242;
+    color: #fff;
+}
+.add_user_form_input {
+    width: 100%;
+    padding: 4px;
+    border: solid 2px #7ec242;
+}
+.height1{
+    height: 100px!important
+}
+.sidebar{
+	background: #00ab50;
+}
+.main-header .logo .logo-lg {
+	padding-top:20px;
+}

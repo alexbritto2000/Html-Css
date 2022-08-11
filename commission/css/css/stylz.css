@@ -1,0 +1,343 @@
+*{padding:0; margin:0}
+.Header{   border-top: 15px solid #00ab50; }
+.wrapper{ max-width:  980px; width:100%; margin:auto }
+.logo{  padding-top: 20px; padding-bottom:20px; width:30%; float:left; }
+.slideshow-container{  border-left: 2px;  }
+.navi
+{ 
+    float:right;
+    font-weight: 600;
+    width:70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.mySlides {display:none;}
+disabled:w3-content {
+    max-width: 980px;
+}
+.navi ul
+{
+    float:right;
+    margin:0%;
+}
+.navi ul li
+{
+	list-style-type:none; 
+    display:inline-block; 
+    font-size:14px; /*font-size:0.9vw;*/
+    font-family:'Open Sans', sans-serif;
+    padding:15px 15px;
+}
+.navi ul li a
+{
+    text-decoration: none;
+    color:#53565b;
+}
+.navi a:hover{
+    color:#00ab50;
+}
+.first_highlight{
+    color:#00ab50;
+}
+.head{
+    background-image: url('../images/map.png');
+    height:170px;
+    margin-bottom:15px;
+}
+h6.cbridge{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:normal;
+    font-size: 30px;
+    color: #00ab50;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.offer{
+    text-align:center;
+    font-size:16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color:#53565b;
+    margin-bottom: 4px;
+}
+.con{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#53565b;
+    align-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+/**p::first-letter {
+    font-weight: bold;
+  }**/
+.advance{
+    padding-top: 15px;
+}
+.item {
+    display:flex;
+    justify-content: center;
+}
+.advance{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color:#ffff;
+    text-align: center;
+}
+.item-img{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.caption {
+    display:inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;  
+}
+.test{
+    background-image: url('../images/Footerimage.jpg');
+    font-family: sans-serif;
+    font-size: 22px;
+    text-align: center;
+    color:#00ab50;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.math{
+    font-family:'Open Sans', sans-serif ;
+    font-size: 14px;
+}
+.row{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #00ab50;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #ffff;
+    
+}
+
+.column {
+    float: left;
+    margin-right: 9%;
+    margin-bottom: 15px;
+  }
+.column:last-child {
+    margin-right: 0%;
+  }
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .expanse {
+    position: relative;
+    max-width: 800px;
+    margin: 0 ;
+  }
+  
+  .expanse img {vertical-align: middle;}
+  
+  .expanse .content1 {
+    opacity: 73%;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
+    width: 100%;
+    min-height: 10%;
+    max-height: 20%;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin:0%;
+}
+
+.wt 
+{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    color:#ffff;
+}
+
+.testimonias{
+    background-image: url(../images/Footerimage.jpg);
+    }
+.test{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    color: #ffff;
+    border-top: 10px;
+}
+p.test{
+    padding-top: 20px;
+    text-align: center;
+}
+.comma{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+}
+p.descrip{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #ffff;
+    text-align: center;
+    padding-top:15px;
+}
+p.author{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color:#00ab50;
+    padding-top:10px;
+}
+.bullet{
+    padding-bottom:20px;
+}
+h3{
+    font-family: 'Open Sans', sans-serif;
+    color:#00ab50;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 0;
+}
+.partner{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.part ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+ 
+  }
+  
+ .part li {
+    list-style-type: none;
+    float: left;
+    padding-right:7%;
+  }
+  
+ .part li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+  }
+  .logo6:last-child{
+      padding-right: 0%;
+  }
+.connect h3{
+    color:#ffff;
+}
+
+.row1{
+    background-color: #53565b;
+    font-size: 14px;
+    min-height:385px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color:#ffff;
+}
+.column2{
+    font-family: 'Open Sans', sans-serif;
+    padding-right:10px;
+    margin:0%;
+    float: left;
+    width:33%;
+}
+.column2 ul
+{
+    margin:0%;
+    padding:0%;
+    font-size: 14px;
+    font-weight: 600;
+}
+.column2 ul li{
+    list-style-type: none;
+    text-decoration: none;
+    padding:11px;
+    padding-left: 0%;
+}
+.column2 ul li a
+{
+    font-style: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color:#ffff;
+    padding-right: 5px;
+    padding-left: 0%;
+}
+.call{
+    padding-left:32px;
+}
+.column2 a:hover{
+    color:#00ab50;
+}
+h4{
+    font-weight:bold;
+    font-family:'Open Sans', sans-serif;
+    font-size: 18px;
+    padding-bottom: 25px;
+}
+.social li{
+    list-style-type: none;
+    display: inline-block;
+}
+.column2:last-child{
+    padding-left: 45px;
+    width:25%;
+    float: right;
+}
+footer{
+    background-color: #000;
+    font-size: 14px;
+    text-align: center;
+    color:#ffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.icon{
+    padding:5px;
+}
+h1{
+    margin-top: 0%;
+}
+.call{
+    padding-top: 0%;
+}
+a
+{
+    color:#ffff;
+    text-decoration: none;
+}
+
+.callus
+{
+    margin-bottom: px;
+}
+.im{
+    padding:5px;
+margin-right: 0%;
+display:inline;
+float: left;
+}
+.socialicons li{
+    float:left;
+}
